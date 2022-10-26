@@ -1,0 +1,21 @@
+body { 
+    background-color: #2f7ece;
+   }
+  
+  /* center the blockquote in the page */
+  .blockquote-wrapper {
+     display: flex;
+     height: 100vh;
+     padding: 0 20px;
+  }
+
+  .blockquote h1:before {
+      content:"";
+      position: absolute;
+      width: 80px;
+      border: 6px solid #292a2b;
+      bottom: -3px;
+      left: 50px;
+      z-index: 2;
+  }
+  
